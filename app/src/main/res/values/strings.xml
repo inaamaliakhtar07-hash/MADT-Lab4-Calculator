@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calc_mode_standard">Standard</string>
+
+    <!-- Keypad Numbers -->
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_dot">.</string>
+    <string name="btn_negate">+/&#8722;</string>
+
+    <!-- Keypad Basic Arithmetic -->
+    <string name="btn_add">+</string>
+    <string name="btn_subtract">&#8722;</string>
+    <string name="btn_multiply">&#215;</string>
+    <string name="btn_divide">&#247;</string>
+    <string name="btn_equals">=</string>
+
+    <!-- Keypad Functions -->
+    <string name="btn_percent">%</string>
+    <string name="btn_clear_entry">CE</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_backspace">&#9003;</string>
+    <string name="btn_reciprocal">1/x</string>
+    <string name="btn_square">x&#178;</string>
+    <string name="btn_sqrt">&#178;&#8730;x</string>
+
+    <!-- Memory Row -->
+    <string name="btn_mem_clear">MC</string>
+    <string name="btn_mem_recall">MR</string>
+    <string name="btn_mem_add">M+</string>
+    <string name="btn_mem_subtract">M&#8722;</string>
+    <string name="btn_mem_store">MS</string>
+    <string name="btn_mem_view">M&#709;</string>
+
+    <!-- History Panel -->
+    <string name="history_title">History</string>
+    <string name="history_empty">There\'s no history yet</string>
+    <string name="history_clear_desc">Clear all history</string>
+
+    <!-- Error Messages -->
+    <string name="error_div_zero">Cannot divide by zero</string>
+    <string name="error_invalid_input">Invalid input</string>
+    <string name="error_overflow">Overflow</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="desc_menu">Open Navigation Menu</string>
+    <string name="desc_keep_on_top">Keep on top</string>
+    <string name="desc_history">Calculation History</string>
+    <string name="desc_backspace">Backspace</string>
+</resources>

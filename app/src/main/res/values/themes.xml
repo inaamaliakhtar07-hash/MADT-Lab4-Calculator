@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme matching Windows Calculator style -->
+    <style name="Theme.MADTCalculator" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/btn_accent_bg</item>
+        <item name="colorPrimaryVariant">@color/btn_accent_ripple</item>
+        <item name="colorOnPrimary">@color/btn_accent_text</item>
+        <item name="android:windowBackground">@color/calc_background</item>
+        <item name="android:statusBarColor">@color/calc_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Calc Keypad Base Button Style -->
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">1.5dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="cornerRadius">@dimen/btn_corner_radius</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/btn_stroke</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Number Key Style -->
+    <style name="CalcButton.Number">
+        <item name="backgroundTint">@color/btn_number_bg</item>
+        <item name="android:textColor">@color/btn_number_text</item>
+        <item name="android:textSize">@dimen/btn_number_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/btn_ripple</item>
+    </style>
+
+    <!-- Function / Operator Key Style -->
+    <style name="CalcButton.Operator">
+        <item name="backgroundTint">@color/btn_operator_bg</item>
+        <item name="android:textColor">@color/btn_operator_text</item>
+        <item name="android:textSize">@dimen/btn_op_text_size</item>
+        <item name="rippleColor">@color/btn_ripple</item>
+    </style>
+
+    <!-- Accent Key Style (Equals) -->
+    <style name="CalcButton.Accent">
+        <item name="backgroundTint">@color/btn_accent_bg</item>
+        <item name="android:textColor">@color/btn_accent_text</item>
+        <item name="android:textSize">@dimen/btn_op_text_size</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="rippleColor">@color/btn_accent_ripple</item>
+    </style>
+
+    <!-- Memory Key Style -->
+    <style name="CalcButton.Memory" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/text_disabled</item>
+        <item name="android:textSize">@dimen/btn_mem_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/btn_ripple</item>
+    </style>
+</resources>
